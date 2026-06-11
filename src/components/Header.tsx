@@ -3,7 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import { businessInfo } from "@/data/business";
-import { Phone, MessageCircle, Menu, X, MapPin, ChevronDown } from "lucide-react";
+import { Phone, MessageCircle, Menu, X } from "lucide-react";
 
 const navLinks = [
   { href: "/", label: "Home" },
@@ -21,11 +21,13 @@ export default function Header() {
     <header className="sticky top-0 z-50 bg-white/95 backdrop-blur-md shadow-sm border-b border-slate-100">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 md:h-20">
-          {/* Logo */}
+          {/* Logo — Using actual logo image */}
           <Link href="/" className="flex items-center gap-3 shrink-0">
-            <div className="w-11 h-11 bg-gradient-to-br from-royal-600 to-emerald-500 rounded-xl flex items-center justify-center shadow-lg shadow-royal-600/20">
-              <span className="text-white font-bold text-xl">P</span>
-            </div>
+            <img
+              src="/images/logo.png"
+              alt="Prisha Online Centre"
+              className="h-10 w-10 md:h-12 md:w-12 object-contain rounded-xl"
+            />
             <div className="hidden sm:block">
               <span className="text-lg font-bold text-deep-900">{businessInfo.shortName}</span>
               <span className="block text-[10px] text-royal-600 font-semibold uppercase tracking-wider -mt-0.5">CSC Certified</span>

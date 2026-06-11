@@ -11,9 +11,11 @@ export default function Footer() {
           {/* Business Info */}
           <div>
             <div className="flex items-center gap-3 mb-5">
-              <div className="w-11 h-11 bg-gradient-to-br from-royal-500 to-emerald-500 rounded-xl flex items-center justify-center">
-                <span className="text-white font-bold text-xl">P</span>
-              </div>
+              <img
+                src="/images/logo.png"
+                alt="Prisha Online Centre"
+                className="h-10 w-10 object-contain rounded-xl"
+              />
               <div>
                 <span className="text-lg font-bold text-white">{businessInfo.shortName}</span>
                 <span className="block text-[10px] text-emerald-400 font-semibold uppercase tracking-wider">CSC Certified</span>
