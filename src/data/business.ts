@@ -1,13 +1,14 @@
 export const businessInfo = {
-  name: "Prisha Online Multiservices",
+  name: "Prisha Online Centre",
   shortName: "Prisha Online",
-  tagline: "Your Trusted Partner for Government & Digital Services",
+  tagline: "Your Trusted Digital Service Partner",
   owner: "Saurav Ganesh Chaudhari",
-  certification: "ISB Certified Entrepreneur",
+  certification: "CSC Certified | ISB Entrepreneur",
   phone: "+91 91455 64291",
   whatsapp: "919145564291",
   email: "swami1642004@gmail.com",
-  address: "Talegaon Dabhade, Pune, Maharashtra, India",
+  address: "Varale, Talegaon Dabhade, Pune, Maharashtra 410507",
+  location: "Varale, Talegaon Dabhade",
   hours: "Mon – Sat: 9:00 AM – 7:00 PM",
   hoursShort: "Mon-Sat, 9AM-7PM",
   mapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3781.5!2d73.68!3d18.73!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1",
@@ -19,4 +20,13 @@ export const businessInfo = {
   yearsExperience: "5+",
   rating: "4.8",
   reviewCount: "200+",
+  // Service offerings for hero highlights
+  heroServices: [
+    "CSC Services",
+    "Aadhaar & PAN",
+    "Certificates",
+    "AEPS & Money Transfer",
+    "Maha e-Seva",
+    "Digital India",
+  ],
 };

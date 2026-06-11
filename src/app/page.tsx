@@ -1,7 +1,7 @@
 import HeroSection from "@/components/HeroSection";
 import ServicesSection from "@/components/ServicesSection";
-import WhyChooseUs from "@/components/WhyChooseUs";
-import HowItWorks from "@/components/HowItWorks";
+import DocumentsSection from "@/components/DocumentsSection";
+import TrustSection from "@/components/TrustSection";
 import TestimonialsSection from "@/components/TestimonialsSection";
 import FAQSection from "@/components/FAQSection";
 import ContactForm from "@/components/ContactForm";
@@ -12,8 +12,8 @@ export default function HomePage() {
     <>
       <HeroSection />
       <ServicesSection />
-      <WhyChooseUs />
-      <HowItWorks />
+      <TrustSection />
+      <DocumentsSection />
       <TestimonialsSection />
       <FAQSection />
       <CTASection />
